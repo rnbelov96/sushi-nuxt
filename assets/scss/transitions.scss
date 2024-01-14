@@ -1,0 +1,29 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
+}
+
+.cart-appearance-enter-active,
+.cart-appearance-leave-active {
+  transition: all 0.5s ease-in-out;
+}
+
+.cart-appearance-enter-from,
+.cart-appearance-leave-to {
+  opacity: 0;
+}
+
+.cart-appearance-enter-to,
+.cart-appearance-leave-from {
+  opacity: 1;
+}

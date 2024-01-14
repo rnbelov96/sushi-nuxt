@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate && echo '/* /index.html  200' | cat >.output/public/_redirects",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "eslint": "eslint --ext .js,.vue --fix components/"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.2.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "nuxt": "^3.9.0",
+    "sass": "^1.69.7",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/svg-sprite": "^1.0.2",
+    "@pinia/nuxt": "^0.5.1",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "maska": "^2.1.11",
+    "pinia": "^2.1.7",
+    "validator": "^13.11.0",
+    "vue": "^3.4.13"
+  }
+}
